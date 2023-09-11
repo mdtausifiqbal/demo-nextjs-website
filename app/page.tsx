@@ -38,7 +38,7 @@ export default function Home() {
           priority
         />
         <br/>
-        <p>This website is hosted on <a href={process.env.NEXT_PUBLIC_VERCEL_URL}>{process.env.NEXT_PUBLIC_VERCEL_URL}</a></p>
+        <p>This website is hosted on <a href={`https://${process.env.NEXT_PUBLIC_VERCEL_URL}`}>https://{process.env.NEXT_PUBLIC_VERCEL_URL}</a></p>
       </div>
 
       <div className={styles.grid}>
